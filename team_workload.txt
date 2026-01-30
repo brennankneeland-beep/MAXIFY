@@ -1,0 +1,177 @@
+MAXIFY APP
+TEAM WORKLOAD & ASSIGNMENT SHEET
+================================
+
+PROJECT OVERVIEW
+----------------
+App that integrates with Spotify to dynamically change music based on:
+- Geographical location
+- Velocity (sports, running, cycling, etc.)
+- Maybe other dependent on time
+
+Team Size: 6–7 people
+Stack:
+- Frontend: React Native
+- Backend: Node.js + Spotify Web API
+
+==================================================
+FRONTEND TEAM (2 PEOPLE)
+==================================================
+
+Frontend Developer A — Core App & State
+--------------------------------------
+Name:
+GitHub: Discord:
+
+Responsibilities:
+- App architecture & navigation
+- Global state (auth, player, preferences)
+- Spotify playback integration
+- API integration layer
+
+Primary Tasks:
+- Login flow UI
+- Home / Now Playing screen
+- Playback controls
+- State management setup
+- Error & loading handling
+
+Deliverables:
+- Stable app shell
+- Working playback
+- Reusable UI components
+
+s
+Frontend Developer B — Sensors & Smart UI
+-----------------------------------------
+Name:
+GitHub: Discord:
+
+Responsibilities:
+- GPS & motion tracking
+- Velocity calculation
+- Context-aware UI updates
+
+Primary Tasks:
+- Location permissions & tracking
+- Velocity detection (walking/running/etc.)
+- Map or activity visualization
+- Battery/performance optimization
+
+Deliverables:
+- Accurate motion tracking
+- Clean UX feedback
+- Sensor hooks/services
+
+==================================================
+BACKEND TEAM (2 PEOPLE)
+==================================================
+
+Backend Developer A — Auth & Spotify Core
+----------------------------------------
+Name:
+Github: Discord:
+
+Responsibilities:
+- Spotify OAuth (Authorization Code Flow)
+- Token storage & refresh
+- Secure API proxy
+
+Primary Tasks:
+- OAuth login & callback
+- Refresh token logic
+- Auth middleware
+- Rate-limit handling
+
+Deliverables:
+- Secure authentication
+- Stable Spotify access
+- No secrets on frontend
+
+
+Backend Developer B — Music Intelligence
+---------------------------------------
+Name:
+Github: Discord:
+
+Responsibilities:
+- Music selection logic
+- BPM / tempo matching
+- Context-based playlist logic
+
+Primary Tasks:
+- Velocity → BPM mapping
+- Location → mood/playlist rules
+- Spotify recommendations API
+- Caching & fallbacks
+
+Deliverables:
+- Intelligent music switching
+- Tunable recommendation system
+
+==================================================
+FLOATERS (2 PEOPLE)
+==================================================
+
+Floater A — Full-stack Integrator
+--------------------------------
+Name:
+Github: Discord:
+
+Responsibilities:
+- Frontend ↔ Backend integration
+- Bug fixing & unblocking
+
+Primary Tasks:
+- Connect APIs to UI
+- Handle edge cases
+- Fix cross-team blockers
+
+Deliverables:
+- End-to-end working features
+- Reduced integration issues
+
+
+Floater B — Product / UX / QA
+-----------------------------
+Name:
+Github: Discord:
+
+Responsibilities:
+- UX design & testing
+- QA & documentation
+
+Primary Tasks:
+- User flows & wireframes
+- Manual testing during workouts
+- Bug reports
+- README & demo prep
+
+Deliverables:
+- Polished UX
+- Clear documentation
+- Stable demo build
+
+==================================================
+7TH MEMBER
+==================================================
+
+Role:
+Name:
+Github: Discord:
+
+Focus Areas:
+- QA automation
+- UI polish
+- Performance optimization
+- Extra backend/frontend support
+
+==================================================
+NOTES / DECISIONS
+==================================================
+
+- Ownership is single-owner per area
+- Floaters must ship code, not just assist
+- Spotify logic stays backend-only
+
+Additional Notes:
