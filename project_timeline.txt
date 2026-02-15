@@ -1,0 +1,175 @@
+SPOTIFY CONTEXT-AWARE MUSIC APP
+PROJECT TIMELINE (MVP → POLISH)
+================================
+
+Assumed Duration: ~8 Weeks
+Team Size: 6–7 Developers
+
+==================================================
+WEEK 0 – PLANNING & SETUP
+==================================================
+All Team:
+- Finalize app feature scope (MVP vs nice-to-have)
+- Define success criteria
+- Choose Expo vs RN CLI
+- Agree on coding standards
+
+Floaters:
+- Create wireframes & user flows
+- Set up GitHub repo(s)
+- Define API contracts (request/response)
+
+Backend:
+- Register Spotify app
+- Set up dev environment
+- Decide token storage strategy
+
+Frontend:
+- Project scaffolding
+- Navigation plan
+- State management decision
+
+==================================================
+WEEK 1 – AUTH & APP FOUNDATION
+==================================================
+
+Backend A:
+- Spotify OAuth (Authorization Code Flow)
+- Auth routes (/login, /callback)
+- Token exchange & refresh
+
+Frontend A:
+- App shell & navigation
+- Global state structure
+- Login screen UI
+
+Frontend B:
+- Location & motion permission POC
+- Basic GPS tracking
+
+Floaters:
+- UX review
+- Test auth flow end-to-end
+
+==================================================
+WEEK 2 – BASIC PLAYBACK
+==================================================
+
+Backend A:
+- Secure Spotify API proxy
+- User profile endpoint
+
+Frontend A:
+- Playback controls (play/pause/skip)
+- Player state syncing
+
+Frontend B:
+- Velocity calculation logic
+- Activity detection (walk/run/etc.)
+
+Backend B:
+- Initial BPM → tempo mapping logic
+
+==================================================
+WEEK 3 – CONTEXT-AWARE LOGIC
+==================================================
+
+Backend B:
+- Spotify recommendations integration
+- Velocity → BPM → song selection
+- Fallback behavior (no motion/location)
+
+Frontend B:
+- UI feedback for detected activity
+- Optional map or activity visualization
+
+Frontend A:
+- Global error/loading handling
+
+Floaters:
+- Integration testing
+- Bug fixing
+
+==================================================
+WEEK 4 – LOCATION-BASED MUSIC
+==================================================
+
+Backend B:
+- Location → mood/playlist rules
+- Region-based logic
+
+Frontend B:
+- Location change detection
+- UI indicators for location-based switching
+
+Frontend A:
+- Preferences screen (enable/disable auto switch)
+
+Floaters:
+- UX polish pass
+
+==================================================
+WEEK 5 – STABILITY & PERFORMANCE
+==================================================
+
+All:
+- Edge case handling
+- Network loss handling
+- Permission denial flows
+
+Frontend:
+- Battery usage optimization
+- Reduce sensor polling
+
+Backend:
+- Caching recommendations
+- Rate-limit protection
+
+==================================================
+WEEK 6 – POLISH & QA
+==================================================
+
+Floaters:
+- Manual QA (real workouts)
+- Bug reports & repro steps
+
+Frontend:
+- UI animations & polish
+- Accessibility fixes
+
+Backend:
+- Logging & monitoring
+- Final API cleanup
+
+==================================================
+WEEK 7 – DEMO & DEPLOYMENT
+==================================================
+
+All:
+- Final bug fixes
+- Demo script preparation
+
+Backend:
+- Deploy API (Render/Fly/Vercel)
+- Environment variable cleanup
+
+Frontend:
+- Build release version
+- App store/demo build prep
+
+==================================================
+WEEK 8 – BUFFER / EXTENSIONS (OPTIONAL)
+==================================================
+
+- Smart learning (adaptive BPM)
+- User stats/history
+- Offline behavior improvements
+- Extra UI polish
+
+==================================================
+NOTES
+==================================================
+- Avoid feature creep after Week 4
+- Integration should be tested every week
+- Floaters must always ship code or test results
+- Backend must stay ahead of frontend needs
