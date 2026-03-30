@@ -1,0 +1,18 @@
+{
+  "name": "maxifyfrontendb",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "^55.0.6",
+    "expo-location": "~55.1.2",
+    "react": "18.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "^0.73.11",
+    "react-native-maps": "1.26.20",
+    "react-native-web": "^0.21.0"
+  }
+}
